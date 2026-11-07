@@ -399,3 +399,6 @@ mark { background: var(--accent-soft); color: inherit; border-radius: 3px; paddi
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* Very small phones: keep the logo and all three buttons on one line */
+@media (max-width: 400px) { .topbar-inner { gap: 6px; } .logo { min-width: 0; font-size: 0.8rem; letter-spacing: 0.08em; } .logo-text { overflow: hidden; text-overflow: ellipsis; } .icon-btn { width: 40px; height: 40px; } }
