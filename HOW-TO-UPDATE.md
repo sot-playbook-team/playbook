@@ -57,9 +57,9 @@ Remove `"draft": true` from a term once its wording is confirmed.
 ## Recipe 3: embed a Google Slides deck (access restricted to the company)
 
 1. Open the deck in Google Slides.
-2. Click **Share** and set **General access** to **Aruna Talent** (anyone in the company with the link). Don't use "Anyone with the link".
+2. Click **Share** and set **General access** to **your company** (anyone in the company with the link). Don't use "Anyone with the link".
 3. Go to **File → Share → Publish to web → Embed**.
-4. Under **Published content & settings**, make sure **Restrict access to the following: Aruna Talent** is ticked. Then click **Publish**.
+4. Under **Published content & settings**, make sure **Restrict access to the following: [your company]** is ticked. Then click **Publish**.
 5. Copy the deck's link from the browser address bar, or the `src="…"` link from the embed code. Both work.
 6. Paste it into the card's `"embed"` field:
    ```json
@@ -68,8 +68,8 @@ Remove `"draft": true` from a term once its wording is confirmed.
 
 Outsiders who open the site see a sign-in box or a "Request access" message instead of the deck. Every embed also has an **Open in Google Slides ↗** button underneath.
 
-**Videos:** upload to Google Drive, share with Aruna Talent only, and paste the Drive link into `"embed"`.
-**Images:** upload to Drive, share with Aruna Talent only, and paste the link into `"image"`.
+**Videos:** upload to Google Drive, share with the company only, and paste the Drive link into `"embed"`.
+**Images:** upload to Drive, share with the company only, and paste the link into `"image"`.
 
 ## Recipe 4: rename the site
 

@@ -293,7 +293,7 @@
     var steps = list(it.steps || it.howTo);
     if (steps.length) {
       h += '<h4>' + esc(it.stepsTitle || (sec.type === 'strategies' ? 'How to run it' : 'How to')) + '</h4>' +
-        '<ol>' + steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol>';
+        '<ol class="steps">' + steps.map(stepHtml).join('') + '</ol>';
     }
 
     var ladder = list(it.goalLadder);
@@ -316,8 +316,16 @@
       h += '<h4>' + esc(it.tipsTitle || 'Tips') + '</h4><ul>' + tips.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join('') + '</ul>';
     }
 
-    list(it.image).forEach(function (img) { h += imageHtml(img, it); });
+    // One image = a big picture; several images = a photo gallery
+    var imgs = list(it.image);
+    if (imgs.length > 1) h += galleryHtml(imgs, it, false);
+    else imgs.forEach(function (img) { h += imageHtml(img, it); });
     list(it.embed).forEach(function (e) { h += embedHtml(e, it); });
+
+    // Screenshots stay hidden until someone taps "Show screenshots"
+    var shots = list(it.screenshots);
+    if (shots.length === 1 && typeof shots[0] === 'string' && isFolder(shots[0])) h += shotsFolderHtml(shots[0], it);
+    else if (shots.length) h += galleryHtml(shots, it, true);
 
     if (tags.length) {
       h += '<div class="card-tags">' + tags.map(function (t) {
@@ -327,6 +335,55 @@
       }).join('') + '</div>';
     }
     return h;
+  }
+
+  // A step can be plain text, or { "step": "Main step", "sub": ["detail", "detail"] }
+  function stepHtml(s) {
+    if (s && typeof s === 'object') {
+      var sub = list(s.sub);
+      return '<li>' + esc(s.step || '') + (sub.length ? '<ul>' + sub.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' : '') + '</li>';
+    }
+    return '<li>' + esc(s) + '</li>';
+  }
+  function stepText(s) { return s && typeof s === 'object' ? [s.step].concat(list(s.sub)).join(' ') : s; }
+
+  // Google Drive file id from a share link (or a bare id)
+  function driveId(src) {
+    src = String(src || '').trim();
+    var m = /drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?(?:export=\w+&)?id=|thumbnail\?id=)([\w-]+)/.exec(src);
+    if (m) return m[1];
+    return /^[\w-]{25,}$/.test(src) ? src : '';
+  }
+
+  // Grid of small photos. Each opens the full photo in Drive.
+  // hiddenUntilClicked = true for screenshots (a button reveals them).
+  function galleryHtml(items, it, hiddenUntilClicked) {
+    var tiles = items.map(function (img, i) {
+      var src = typeof img === 'string' ? img : (img && img.src);
+      var id = driveId(src);
+      if (!id) return '';
+      var alt = (img && img.alt) || ((it.title || 'Photo') + ' ' + (i + 1));
+      // No src yet: the photo loader fills it in a few at a time when the card opens
+      return '<a class="g-item" href="https://drive.google.com/file/d/' + esc(id) + '/view" target="_blank" rel="noopener noreferrer">' +
+        '<img data-id="' + esc(id) + '" alt="' + esc(alt) + '"></a>';
+    }).join('');
+    if (!tiles) return '';
+    var note = '<p class="media-note">' + esc(state.site.accessNote || '') + ' Tap a photo to open it full size.</p>';
+    if (!hiddenUntilClicked) {
+      return '<h4>Photos (' + items.length + ')</h4>' + note + '<div class="gallery">' + tiles + '</div>';
+    }
+    return '<div class="shots"><button type="button" class="btn shots-btn" aria-expanded="false" data-shots data-count="' + items.length + '">Show screenshots (' + items.length + ')</button>' +
+      '<div class="shots-body" hidden>' + note + '<div class="gallery">' + tiles + '</div></div></div>';
+  }
+
+  // "Show screenshots" button that reveals a whole Drive folder as a grid
+  function shotsFolderHtml(url, it) {
+    url = safeUrl(url);
+    if (!url) return '';
+    return '<div class="shots"><button type="button" class="btn shots-btn" aria-expanded="false" data-shots data-count="">Show screenshots</button>' +
+      '<div class="shots-body" hidden><div class="media"><div class="embed embed-folder" data-src="' + esc(toEmbed(url)) + '" data-title="' + esc((it.title || 'Guide') + ' screenshots') + '"></div>' +
+      '<div class="media-note"><span>' + esc(state.site.accessNote || '') + '</span>' +
+      '<a class="pill-link" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Open in Google Drive ↗</a></div></div></div></div>';
   }
 
   function copyBtn(text, label) {
@@ -341,10 +398,14 @@
     if ((m = /docs\.google\.com\/presentation\/d\/([\w-]+)/.exec(url))) return 'https://docs.google.com/presentation/d/' + m[1] + '/embed?start=false&loop=false&delayms=3000';
     if ((m = /docs\.google\.com\/(document|spreadsheets)\/d\/([\w-]+)/.exec(url))) return 'https://docs.google.com/' + m[1] + '/d/' + m[2] + '/preview';
     if ((m = /drive\.google\.com\/file\/d\/([\w-]+)/.exec(url))) return 'https://drive.google.com/file/d/' + m[1] + '/preview';
+    // A whole Drive folder shows as a photo grid (add photos by dropping them into the folder)
+    if ((m = /drive\.google\.com\/drive\/(?:u\/\d+\/)?folders\/([\w-]+)/.exec(url))) return 'https://drive.google.com/embeddedfolderview?id=' + m[1] + '#grid';
     if ((m = /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([\w-]{6,})/.exec(url))) return 'https://www.youtube-nocookie.com/embed/' + m[1];
     return url;
   }
+  function isFolder(url) { return /drive\.google\.com\/drive\/(?:u\/\d+\/)?folders\//.test(url); }
   function kindOf(url) {
+    if (isFolder(url)) return 'Google Drive';
     if (/presentation/.test(url)) return 'Google Slides';
     if (/document/.test(url)) return 'Google Docs';
     if (/spreadsheets/.test(url)) return 'Google Sheets';
@@ -368,13 +429,15 @@
       return '<div class="media">' + placeholderHtml('🎞️', 'Deck or video coming soon', 'Paste a Google Slides, Drive or YouTube link into "embed" in the data file.', '', '') + '</div>';
     }
     var kind = kindOf(url);
-    return '<div class="media"><div class="embed" data-src="' + esc(toEmbed(url)) + '" data-title="' + esc(title) + '">' +
+    if (isFolder(url) && !(e && e.title)) title = (it.title || 'Photos') + ' photo folder';
+    return '<div class="media"><div class="embed' + (isFolder(url) ? ' embed-folder' : '') + '" data-src="' + esc(toEmbed(url)) + '" data-title="' + esc(title) + '">' +
       placeholderHtml('🔒', 'Loading ' + kind + '…', state.site.accessNote || 'Sign in with your work Google account to view.', '', '') + '</div>' +
       '<div class="media-note"><span>' + esc(state.site.accessNote || "Can't see it? Open it in a new tab and sign in with your work Google account.") + '</span>' +
       '<a class="pill-link" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">Open in ' + esc(kind) + ' ↗</a></div></div>';
   }
   function loadEmbeds(card) {
     $$('.embed[data-src]', card).forEach(function (box) {
+      if (box.closest('[hidden]')) return;   // hidden screenshots load when their button is pressed
       var f = document.createElement('iframe');
       f.src = box.dataset.src;
       f.title = box.dataset.title;
@@ -395,8 +458,9 @@
     if (isPlaceholderLink(src)) {
       return '<div class="media">' + placeholderHtml('🖼️', 'Image coming soon', 'Paste a Google Drive image link into "image" in the data file.', '', '') + '</div>';
     }
-    var m = /drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?(?:export=\w+&)?id=)([\w-]+)/.exec(src);
-    var shown = m ? 'https://drive.google.com/thumbnail?id=' + m[1] + '&sz=w1600' : src;
+    var id = driveId(src);
+    var shown = id ? 'https://drive.google.com/thumbnail?id=' + id + '&sz=w1600' : src;
+    if (id && !/^https:/i.test(src)) src = 'https://drive.google.com/file/d/' + id + '/view';
     var openUrl = safeUrl(src);
     if (/^\s*(javascript|data):/i.test(shown)) return '';
     return '<figure class="media figure"><img src="' + esc(shown) + '" alt="' + esc(alt) + '" loading="lazy" data-open="' + esc(openUrl) + '">' +
@@ -405,11 +469,48 @@
   // Images that fail (no access, wrong link) get swapped for a placeholder card
   document.addEventListener('error', function (e) {
     var img = e.target;
-    if (!img || img.tagName !== 'IMG' || !img.closest('.figure')) return;
+    if (!img || img.tagName !== 'IMG') return;
+    if (!img.closest('.figure')) return;   // gallery photos are handled by the photo loader below
     var wrap = document.createElement('div');
     wrap.innerHTML = placeholderHtml('🔒', "Image can't load here", state.site.accessNote || 'Sign in with your work Google account to view.', img.dataset.open, 'Google Drive');
     img.replaceWith(wrap.firstChild);
   }, true);
+
+  // ---------- Photo loader ----------
+  // Google Drive refuses thumbnails when too many are asked for at once, so photos load
+  // 2 at a time. A failed photo is retried a few times with a pause, switching between
+  // Google's two image addresses. After that it shows a small lock (no access, or Drive busy).
+  var photoQueue = [], photosActive = 0, PHOTO_LIMIT = 2, PHOTO_TRIES = 5;
+  function queuePhotos(container) {
+    $$('img[data-id]:not([data-queued])', container).forEach(function (img) {
+      img.dataset.queued = '1'; img.dataset.tries = '0'; photoQueue.push(img);
+    });
+    pumpPhotos();
+  }
+  function pumpPhotos() {
+    while (photosActive < PHOTO_LIMIT && photoQueue.length) loadPhoto(photoQueue.shift());
+  }
+  function loadPhoto(img) {
+    if (!img.isConnected) { pumpPhotos(); return; }      // page changed: skip
+    photosActive++;
+    var id = img.dataset.id, tries = +img.dataset.tries;
+    img.onload = function () { photosActive--; img.removeAttribute('data-id'); pumpPhotos(); };
+    img.onerror = function () {
+      photosActive--;
+      if (tries < PHOTO_TRIES && img.isConnected) {
+        img.dataset.tries = String(tries + 1);
+        setTimeout(function () { photoQueue.push(img); pumpPhotos(); }, 1500 * (tries + 1) + Math.random() * 1000);
+      } else if (img.isConnected) {
+        var lock = document.createElement('span');
+        lock.className = 'g-lock'; lock.textContent = '🔒'; lock.title = 'Needs access, or Drive is busy. Tap to open in Drive.';
+        img.replaceWith(lock);
+      }
+      pumpPhotos();
+    };
+    img.src = tries % 2 === 0
+      ? 'https://drive.google.com/thumbnail?id=' + id + '&sz=w500'
+      : 'https://lh3.googleusercontent.com/d/' + id + '=w500';
+  }
 
   // ---------- Accordion ----------
   function toggleCard(card, open) {
@@ -418,7 +519,10 @@
     btn.setAttribute('aria-expanded', String(open));
     body.hidden = !open;
     card.classList.toggle('open', open);
-    if (open) loadEmbeds(card);
+    if (open) {
+      loadEmbeds(card);
+      $$('.gallery', card).forEach(function (g) { if (!g.closest('[hidden]')) queuePhotos(g); });
+    }
   }
 
   // ---------- Encyclopedia (A-Z glossary) ----------
@@ -468,7 +572,7 @@
     state.site.sections.forEach(function (sec) {
       (state.data[sec.id] || []).forEach(function (it) {
         var title = it.title || it.term || '';
-        var parts = [title, it.full, it.summary, it.definition].concat(list(it.details), list(it.steps || it.howTo),
+        var parts = [title, it.full, it.summary, it.definition].concat(list(it.details), list(it.steps || it.howTo).map(stepText),
           list(it.goalLadder), list(it.prompts), list(it.tips), list(it.tags));
         state.index.push({
           sec: sec, id: it._id, title: title,
@@ -567,6 +671,15 @@
           copy.textContent = 'Copied'; copy.classList.add('done'); toast('Copied to clipboard');
           setTimeout(function () { copy.textContent = copy.dataset.label; copy.classList.remove('done'); }, 1400);
         });
+        return;
+      }
+      var shotsBtn = e.target.closest('[data-shots]');
+      if (shotsBtn) {
+        var body = shotsBtn.nextElementSibling, show = body.hidden;
+        body.hidden = !show;
+        shotsBtn.setAttribute('aria-expanded', String(show));
+        shotsBtn.textContent = (show ? 'Hide' : 'Show') + ' screenshots' + (shotsBtn.dataset.count ? ' (' + shotsBtn.dataset.count + ')' : '');
+        if (show) { queuePhotos(body); loadEmbeds(body); }
         return;
       }
       var cardBtn = e.target.closest('.card-btn');

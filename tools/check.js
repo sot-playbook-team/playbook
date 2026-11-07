@@ -40,7 +40,8 @@ function scanText(file, text) {
       if (/REPLACE|PASTE|XXXX/i.test(url)) warn(`${where}: placeholder link still in place (fine for now).`);
       else if (!ALLOWED_HOSTS.test(url)) bad(`${where}: link to ${url}. Only Google Drive/Docs/Slides/YouTube links are allowed.`);
     });
-    if (/slack\.com|notion\.so|drive\.google\.com\/drive\/folders/i.test(ln)) bad(`${where}: internal link (Slack, Notion or a Drive folder). Remove it.`);
+    if (/slack\.com|notion\.so|sites\.google\.com/i.test(ln)) bad(`${where}: internal link (Slack, Notion or a Google Site). Remove it.`);
+    // Drive folders are allowed (they show as photo grids) but must stay shared with named staff only.
   });
 }
 

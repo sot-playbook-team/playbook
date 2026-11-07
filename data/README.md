@@ -85,6 +85,10 @@ Same idea, fewer fields. Only `title` is required.
 Optional extras: `"details"` (paragraphs), `"tags"`, and `"stepsTitle"`, `"ladderTitle"`, `"promptsTitle"`, `"tipsTitle"` to rename the small headings.
 `"draft": true` shows a **Draft** chip. Delete that line when the wording is approved.
 
+**Photo grids (Frames):** put a Drive *folder* link in `"embed"`, e.g. `"embed": "https://drive.google.com/drive/folders/FOLDER_ID"`.
+The card shows every photo in that folder. To add photos later, just drop them into the folder in Drive; no site edit needed.
+The same works for `"screenshots"` on Tools cards: a folder link there shows a **Show screenshots** button.
+
 To add an image with a description for screen readers, use: `"image": { "src": "https://drive.google.com/file/d/ID/view", "alt": "What the picture shows", "caption": "Optional caption" }`.
 
 ## Add a glossary term
@@ -112,5 +116,5 @@ Each section has: `id` (used in the web address, so **don't change it** once peo
 ## Privacy checklist (the site is public)
 
 - No model names (real or stage), photos, usernames, earnings or coworker names.
-- No internal links (Slack, Drive folders, the Hub). Only links to individual Slides, Docs, Drive files or YouTube videos, restricted to the company domain.
+- No internal links (Slack, the Hub, Google Sites). Only links to Slides, Docs, Drive files, Drive photo folders or YouTube videos, shared only with staff (never "Anyone with the link").
 - Keep the wording neutral and professional. Put sensitive detail inside the restricted Slides deck, not in these files.

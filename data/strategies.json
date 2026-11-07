@@ -1,72 +1,94 @@
 [
-  {
-    "title": "Vampire Costume",
-    "date": "2026-11-05",
-    "tags": ["costume", "tease", "high energy"],
-    "summary": "A themed costume night built around a slow, staged reveal.",
-    "details": [
-      "The theme gives the room a story to follow. Each costume piece is tied to a goal, so viewers feel they are moving the night forward together."
-    ],
-    "howTo": [
-      "Put the theme in the room topic and tags before going live.",
-      "Open in the full costume, cape on, and set the scene in the first few minutes.",
-      "Tie each costume change to a goal. Show progress often so the room believes it can hit it.",
-      "Save the best moment for the main goal and hold something back. The room should stay curious."
-    ],
-    "goalLadder": [
-      "25 tk · Fangs on and a hello wave (warm-up)",
-      "50 tk · Cape twirl (warm-up)",
-      "500 tk · Main goal: full costume reveal",
-      "300 tk · Pose chosen by tippers' vote",
-      "150 tk · Spooky story in character"
-    ],
-    "prompts": [
-      "+ Who's brave enough to wake the vampire? 🦇",
-      "+ Halfway to the reveal! Who's helping us get there?"
-    ],
-    "tips": [
-      "Amounts are examples. Adjust them to the room's traffic and pace.",
-      "Easy goals first, then step the amounts down (push and pull)."
-    ],
-    "embed": "https://docs.google.com/presentation/d/REPLACE_WITH_DECK_ID/edit"
-  },
-  {
-    "title": "Backless Dress",
-    "date": "2026-10-30",
-    "tags": ["tease", "slow room"],
-    "summary": "A low-key, elegant look for quieter rooms, using angles and slow turns.",
-    "howTo": [
-      "Start front-facing and chatty. Build rapport before any turns.",
-      "Use slow turns and side angles as goal rewards, not as the opener.",
-      "Keep the camera steady and the lighting soft. The look does the work.",
-      "If the room is quiet, switch to a filler and come back to the turn goal later."
-    ],
-    "goalLadder": [
-      "20 tk · Twirl to show the dress (warm-up)",
-      "300 tk · Main goal: slow turn and pose",
-      "200 tk · Over-the-shoulder look",
-      "100 tk · Tippers pick the next song"
-    ],
-    "prompts": [
-      "+ Should the next pose be over the shoulder or a side profile? Vote with a tip!"
-    ]
-  },
-  {
-    "title": "Belt Bra",
-    "date": "2026-10-01",
-    "tags": ["costume", "high energy"],
-    "summary": "A bold outfit night with fast, upbeat goals and music.",
-    "howTo": [
-      "Pick an upbeat playlist and keep the energy high from the start.",
-      "Use short, quick goals early to build momentum.",
-      "Change the frame between goals so the room never feels static."
-    ],
-    "goalLadder": [
-      "30 tk · Dance break (warm-up)",
-      "400 tk · Main goal: outfit reveal",
-      "250 tk · Tipper picks the pose",
-      "120 tk · Shout-out round"
-    ],
-    "embed": ""
-  }
+  { "title": "Vampire Costume", "date": "2026-07-17", "tags": ["tip goal", "costume & outfit"], "summary": "New strategy. Open the deck and go to the next slide to watch the performance.", "embed": "https://docs.google.com/presentation/d/1NQlmQ21l5NLmMDd1F1CfwP9CahB3RmoTf34eoayrR0E" },
+  { "title": "Belt Bra", "date": "2026-07-17", "tags": ["tip goal", "bra"], "summary": "New strategy. Open the deck and go to the next slide to watch the performance.", "embed": "https://docs.google.com/presentation/d/1g4lIAMJCK4tfEWhZAZuq0tkd3LdxPISPC3Nq4JOArVc" },
+  { "title": "Backless Dress", "date": "2026-07-17", "tags": ["tip goal", "costume & outfit"], "summary": "New strategy. Open the deck and go to the next slide to watch the performance.", "embed": "https://docs.google.com/presentation/d/1vsRxM7VqixutbyGnLHz9vM01gmn1cW0aHfsOzDEuJqU" },
+
+  { "title": "Tissue Bra", "date": "2026-01-29", "tags": ["tip goal", "bra", "props"], "embed": "https://docs.google.com/presentation/d/1zeIqfVPdDtbWgkdt3yZTDtkKgu89KMvT1Gcesc6gkAY" },
+  { "title": "Towel Tease", "date": "2026-01-29", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1nYJJsZdsmnzOR1x8b0hpAdnN_XvuwoJZxMdNmU70kLw" },
+  { "title": "Pillow Bra", "date": "2026-01-29", "tags": ["tip goal", "bra", "props"], "embed": "https://docs.google.com/presentation/d/1zY78EBCSLGGZ02RuxsVAFypdvlY6S-Rx5bCNLLBhjbw" },
+  { "title": "Pillow Ride", "date": "2026-01-29", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1wlNZ7x76FB4wQUQJo9AHWwxjeUoPTvMGMKVzQJifmFw" },
+  { "title": "Wet White Top", "date": "2026-01-29", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1jVIaRCM4zr-MBAt1YHzd0HiO-cgqeXTsfoYNSw5DycM" },
+  { "title": "Cut Shirt", "date": "2026-01-29", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1hzJJeLwCKrKOacD7ry4nHt6hAve_W4LKCakV7MnmAg4" },
+  { "title": "Hair Bra", "date": "2026-01-29", "tags": ["tip goal", "bra"], "embed": "https://docs.google.com/presentation/d/1XBtfuNGn4k8KLSeglReLhdVIXJ5BKuUrdXyL7TAnfW4" },
+  { "title": "Shower", "date": "2026-01-29", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1cnketKOKYRCuyuXSSziKcaPlELAyXymV14BCHISyFbo" },
+  { "title": "Hand Bra", "date": "2026-01-29", "tags": ["tip goal", "bra"], "embed": "https://docs.google.com/presentation/d/1VhtSilDMGKb6o7wO5R5gOyLrve9b5MQlQOFM8Bwf5xk" },
+  { "title": "Icing Bra", "date": "2026-01-29", "tags": ["tip goal", "bra", "food"], "embed": "https://docs.google.com/presentation/d/1UwMQInAixNYdQy6J0_UZ4s1NBQrlJxtgEXp_bGU5xlQ" },
+  { "title": "Oil My Body/Show", "date": "2026-01-29", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1R9-voYhwj_05fM1ESpgvDl2aDRWxYEK9LIFjxATLLmU" },
+  { "title": "Whipped Cream Bra", "date": "2026-01-29", "tags": ["tip goal", "bra", "food"], "embed": "https://docs.google.com/presentation/d/1Q2q7K0jR-ZUtpT8E0P1ASrNQi76EyNszbwlm8Xfe510" },
+  { "title": "Chair + Towel Tease", "date": "2026-03-11", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1smULP0jifaZe13CNI0WNcSE-Z5OWwB6GS-YDnpU8n0k" },
+  { "title": "Milk Tease", "date": "2026-04-11", "tags": ["tip goal", "food"], "embed": "https://docs.google.com/presentation/d/1UpwrYAoTCpIgzvC2XYvhTxldBMdJKOd9drm7ubc6euw" },
+  { "title": "Rose + Blindfold Tease", "date": "2026-03-24", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1g7FIECbQ_rHA0rxb5Vf6AouGvksZ4S8L1WPVqYXS-9s" },
+  { "title": "LED Whip Tease", "date": "2026-03-24", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/155GLrWNj_H3i3TDphOQ0Wbm15Rp6-_nGe8lF4Z_VqAw" },
+  { "title": "Mirror Cleaning", "date": "2026-03-08", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1jcrHeQHNxEN2-J2x-Q7vChndJ-PqUTV46PRIbcQ9DW0" },
+  { "title": "Tank Top Side-boob", "date": "2026-02-10", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1ZG9D4RjIUWM8OBJP-eJY3Jvv0cURRJefXgM6tIKRRAU" },
+  { "title": "Apron Tease", "date": "2026-02-10", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1gh34A61aU-Wby7-eN0EyM2T4WxQ7FspMHHOXerkBZYY" },
+  { "title": "Student Costume Theme", "date": "2026-02-10", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1nKUNSs-4ARjy99FlgQGLSLsS9sjTLqmt4De-M6uJUAs" },
+  { "title": "Foam Bra", "date": "2026-01-30", "tags": ["tip goal", "bra", "props"], "embed": "https://docs.google.com/presentation/d/1xK_AqRL34vjwjxNtW9Z28IJ9nONhd6MN4RmgEbM4tto" },
+  { "title": "Pop the Balloon!", "date": "2026-04-16", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1IN5c0jmyD49Dx8mlGkpxQkx8AtJTRwclIca3FQ_PoOI" },
+  { "title": "Jeans Tease", "date": "2026-04-24", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1x-ZicH3gMfoUT01pbXSa9oRvWIeuc6dyVMbSFXqGy6c" },
+  { "title": "See-Through Undies", "date": "2026-04-24", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/12WQoKfMAzaHQ0lrGUcn9mBOIDWvpONM-4kDss6Bznkc" },
+  { "title": "Shadow Tease", "date": "2026-04-19", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1PUonXIN4HxkjYUjIvZVRJZ7bD8dTvxiIPbb7JaesNJ4" },
+  { "title": "Candle Wax", "date": "2026-04-19", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1q0h01Jcr11ciqy9e-drnuG8hboinrVM5JgCU--qe3iI" },
+  { "title": "Fan Bra", "date": "2026-04-26", "tags": ["tip goal", "bra", "props"], "embed": "https://docs.google.com/presentation/d/1bV6JxJUIMMND6WJxVQtuZjl57dA4Zcku_WCEfJCh8HY" },
+  { "title": "Backward Bra", "date": "2026-04-28", "tags": ["tip goal", "bra"], "embed": "https://docs.google.com/presentation/d/1QG6YlpFHa_kxNlf1l53kgtjk8G3fOIL8JN3sL25aOOQ" },
+  { "title": "Chair Tease", "date": "2026-05-09", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1hS_PnHV8tgMBJVlBTgiaiHHZHudaavw--ppDf_xhTy8" },
+  { "title": "Scarf Tease", "date": "2026-05-13", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1vGctLjnC2Ox75DbzKk75uQ16fvHKsEaG-a2gIo2mvFA" },
+  { "title": "Finger Bra Tease", "date": "2026-05-13", "tags": ["tip goal", "bra"], "embed": "https://docs.google.com/presentation/d/1Y_nwSgI2SXwO4zsRAAZ2UcCdg_Nm3PSBy47gturQOo8" },
+  { "title": "Balloon Bra", "date": "2026-05-24", "tags": ["tip goal", "bra", "props"], "embed": "https://docs.google.com/presentation/d/1Ziirfd6IPhkeQToX7UsXA8yytSuU5z_uiLA-kjZ_ZZI" },
+  { "title": "Teddy/Plushie Panty", "date": "2026-05-24", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1tBbOGcbamuz2rV79qixfA1U7H_q_jdG4OfjyWXt00yY" },
+  { "title": "Cut my Dress", "date": "2026-05-24", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1ozqx2WhV7FQFN1qIIAAfCd7x4LfwDb9cayzVyXSKp7U" },
+  { "title": "Feet Tease", "date": "2026-06-07", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1pdkjQJhGsDu9zUSHmCYSKuVF_82ihsUKzDAA3eG0br4" },
+  { "title": "Water bottle Tease", "date": "2026-06-07", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1Fym_RVCgQg8II-poM3wDxdoGTSWfy5BHIln_RmCUFoA" },
+  { "title": "Squat + Low Angle", "date": "2026-06-21", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1A4X7mO4Diu3iZHIInImjmCpOawWBCXUQ8o0I7CtETtU" },
+
+  { "title": "Naked Dress", "date": "2026-02-03", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1eCgOjCBDLkUYzDgBMYv1jvYVcAvGJ7iMow2of6oiuFE" },
+  { "title": "Robe Tease", "date": "2026-02-17", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1n-bpHP2TwFg_njV4pTI-tYnNvkInA_YRVAdZ9g_OKKQ" },
+  { "title": "Cake Me", "date": "2026-02-03", "tags": ["tip goal", "food"], "embed": "https://docs.google.com/presentation/d/1yIbwFg2ZMyMJN0mU0pvZxp50X5cDNbsiekYOnAragvo" },
+  { "title": "Kitchen Apron", "date": "2026-02-03", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1fowHzSNosAsq8dtyKe4Dn1keE7tHI3JLMaa3nDPdaug" },
+  { "title": "LED Hula Hoop", "date": "2026-02-03", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1m81m3HlCx3wFHyjO9viLx2gFI8sjCQZ1Xr_3T99YIZY" },
+  { "title": "LED Whip", "date": "2026-02-03", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/13NUVlMnVNjBOGgQmkAArZAYClpYbBbZsxJ7_sgM0Zvw" },
+  { "title": "Nude Underwear", "date": "2026-02-03", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/12qFemLeIS29jGYC_CSTq-WIiquuqWvwjGsNYUJiZ0SI" },
+  { "title": "Splits Sequence", "date": "2026-02-03", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1HKlNA3QqQ6pDJNc-_W74rS0WAEC4w-z6nUXxwmWyprM" },
+  { "title": "Try On Tease", "date": "2026-03-02", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1H97ooh7YJDZyclBu3jukW4pRoJ6MkmqI2FR1GNrb-aI" },
+  { "title": "Tattoo Me", "date": "2026-02-03", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/17lX6Psb685vEWymWZ1PZN1wK8eYmA2waml_2S5E39k8" },
+  { "title": "Resistance Bands", "date": "2026-02-03", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1Wu-EglE6T3L7ODS4jEKfCsKQht340-pTCepjCMPVeI4" },
+  { "title": "Brush My Teeth", "date": "2026-02-03", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1ZMlldFooPDJfeeTsDSqWVbM3QFrA_dY_VIXRMB4LKEg" },
+  { "title": "Christmas Theme", "date": "2026-02-03", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1P5s0iAJvubqGhocrqBDuOGQ5O0a16RHfqh6hZpEpFE8" },
+  { "title": "High Heel Show", "date": "2026-02-03", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1wM1-XH-YJiV4KmjUf3vUliWvAV6XMv5qXULkzXNLUqE" },
+  { "title": "Petal Bra", "date": "2026-04-19", "tags": ["tip goal", "bra", "props"], "embed": "https://docs.google.com/presentation/d/1npNJMeQbvQhMClDby61cq1exk2VBkwpRgNDKjQwVapU" },
+  { "title": "Tassels Tease", "date": "2026-03-29", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1JXwvRsPNQCOt0A7DZuS-KP0S6cpb74TVNof3o_OSEiY" },
+  { "title": "Body Paint", "date": "2026-03-28", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1STRycBR61ZHhYDBpT78NvIOn2pGmW3UsjpKKkRS0jL4" },
+  { "title": "Button-Down Outfit", "date": "2026-04-11", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1qyWlzh8Cr9OS6POFyYOzX8JwiBGIsyK0vGfL4urCVE4" },
+  { "title": "Corset + Heels Tease", "date": "2026-04-05", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/17ymsIxiDmH8eea1AxYdTB2ctjBwFi3URhSbVgYpchdA" },
+  { "title": "Diamond Sticker", "date": "2026-03-15", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/12dq0EH0YY-9yNt4M9c_z1DOrp6S6kINJf20TzrQSGuI" },
+  { "title": "Cowboy Theme Tease", "date": "2026-03-15", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1D6Yh7K78rQ9mvQKZmPja082mxAdNazABgPmiuEBrivg" },
+  { "title": "Hula Hoop + Hand Bra", "date": "2026-03-08", "tags": ["tip goal", "bra", "props"], "embed": "https://docs.google.com/presentation/d/1ckNozIZfdxpUuFddK6CS5MDDywONPQ3h91o6hXEIs5I" },
+  { "title": "Leggings Tease", "date": "2026-03-08", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1vZOqQYBhr3lLU3jmKBivMPdsqm-3mahV_yCx5O4iY8Y" },
+  { "title": "Jumper Tease", "date": "2026-04-05", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1Pfx8ZdV9ztKaDODAftIFjhF3BqVushMRjba2_zddH5s" },
+  { "title": "Scarf Tease (v2)", "date": "2026-03-15", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1A-BtXJXr7I38W-QmaGxY5_j9i_57opchZj7e1DUQLwU" },
+  { "title": "Skirt Tease", "date": "2026-03-22", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1koB-CcHZNakdH7FMoLiw9rNMq0NIQ8W3nybSJg2JnV4" },
+  { "title": "Twister Game", "date": "2026-04-26", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1VhnFiHrvwl7NB_BvZPcC8wFPi3ynngWRhMGXgvJf5SE" },
+  { "title": "Spatula Spank", "date": "2026-04-26", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1ssA3VTquR-_dcWrtUbZDFwyqejI-0JThcKXEAHCq1zk" },
+  { "title": "Glow in the Dark Body Paint", "date": "2026-05-03", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1EK-XTnVFTyjPh3FKT-8VZ_mRDotI5YpbcF4R6MOL1u0" },
+  { "title": "Blanket Tease", "date": "2026-05-03", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1O7PIPWiyZoV8BRQo-hWB2A15ac0lfGSFWSslG4qOmZ4" },
+  { "title": "Cheerleader Costume", "date": "2026-05-03", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1oNxl1AUpbcf-YCCM8_-xRGoCQN_r8dEA1TVYuDtulZ8" },
+  { "title": "Ice Cream Tease", "date": "2026-05-16", "tags": ["tip goal", "food"], "embed": "https://docs.google.com/presentation/d/1cCD79CyxGSNNqKSYnQT8E6DbLTc3xtZ6xAz9OPMsiu4" },
+  { "title": "Hat Tease", "date": "2026-05-16", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1urxXz4bLggdJjc16ch7RMbDCegNhZ-q6UhI5bXC6O64" },
+  { "title": "Boots + Chair Tease", "date": "2026-05-09", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1EsgFl6D8sPsi0k4DbzB5ehiEhYGD3vMN6OfMl0z1aGY" },
+  { "title": "Chair + Panty Tease", "date": "2026-05-31", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1SRsQ78srhuiJ_Bt6Y_ztOf739uSVjiKdtfltav80CR0" },
+  { "title": "Necktie Tease", "date": "2026-05-09", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1xWpXZ40nVbdRzl61Riw4ffdtYEMK9El4b4CQZPCsE_k" },
+  { "title": "Yoga Ball Tease", "date": "2026-05-31", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1g13enQL8b0NNO-QVwvKpUcKJUug7uNoUQCpg81xPx1s" },
+  { "title": "Table Tease", "date": "2026-06-07", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1IYJmt6zazQYlbPf0S-CvRXZG7yUvTBdBcJCQjbOcSsM" },
+  { "title": "ASMR Tease", "date": "2026-07-06", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1wjKH1cBH3DR6x5EWIF0camHHPQk2vXHgYdxeDZqXz9A" },
+  { "title": "Moonwalk Tease", "date": "2026-07-06", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1p8eSi7UEoYDhaUo6qCf9OcF3W866MOfmAtUA1zlJtCI" },
+  { "title": "Belly Dancing", "date": "2026-07-06", "tags": ["tip goal"], "embed": "https://docs.google.com/presentation/d/1fZ3wM0Tskcf1PrKyrCai3sSGQX8egknwyF7kiV5CbS0" },
+  { "title": "Honey Tease", "date": "2026-06-28", "tags": ["tip goal", "food"], "embed": "https://docs.google.com/presentation/d/1eySgvY3eicymV8VpQCGckS3IUy6fvYw8yHavqphM_fI" },
+  { "title": "Sparkly Tapes", "date": "2026-06-28", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1Fgj_tuVckUQhJKt7lTB8NNAZyW5DwjEn5KDDaujKPgs" },
+  { "title": "Cheetah Outfit", "date": "2026-06-28", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1RSTpvZ6G4ekqQX7DILuSBxcUYFmUONTiSI_wc2biKz4" },
+  { "title": "Newspaper Dress Tease", "date": "2026-07-12", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1iHoXeImERh65E52BTHR-913_GcRkiTUL6UEZ-8Dclb4" },
+  { "title": "Velma Cosplay", "date": "2026-07-12", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1wHJbhDoqUmvOTqH_DQx7x8PbmoUst62lqGDzvZkjFEo" },
+  { "title": "Clown Costume", "date": "2026-07-12", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1h7BxQEyoTdfZzFfKKNW1C__qYuPKmJnMWGvDvZvbYIQ" },
+  { "title": "Mirror Tease", "date": "2026-06-21", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1q16vOAt4MQgn9o_Lc4fL4o5p01WNcyx8h3i5id6Nf3Q" },
+  { "title": "Magnifying Glass Tease", "date": "2026-06-14", "tags": ["tip goal", "props"], "embed": "https://docs.google.com/presentation/d/1GEL15L13mEu497mSoVFXcEF18KRa0qBllw1M7CgVyZ0" },
+  { "title": "Teacher Cosplay", "date": "2026-06-14", "tags": ["tip goal", "costume & outfit"], "embed": "https://docs.google.com/presentation/d/1W4O7OSi80z2sJLWDGvKWO_c09eZow15v_SIolRddT5g" }
 ]

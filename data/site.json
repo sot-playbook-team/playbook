@@ -16,7 +16,7 @@
       "label": "New Strategies",
       "nav": "Strategies",
       "banner": "Strategies",
-      "intro": "The latest stream strategies: what they are, how to run them and the goal ladder to use."
+      "intro": "Every tip-goal strategy, newest first. Open a card to see the deck and the example performance."
     },
     {
       "id": "model",
@@ -40,7 +40,7 @@
       "label": "Frames & Positions",
       "nav": "Frames",
       "banner": "Frames",
-      "intro": "Framing, angles, thumbnail shots and position ideas."
+      "intro": "Position and location ideas with reference photos."
     },
     {
       "id": "fillers",
@@ -65,6 +65,14 @@
       "nav": "Support",
       "banner": "Support",
       "intro": "Operator how-tos: checklists, call rules, tech problems and escalation."
+    },
+    {
+      "id": "tools",
+      "file": "tools.json",
+      "label": "Tools & Systems",
+      "nav": "Tools",
+      "banner": "Tools",
+      "intro": "Step-by-step setup guides: MTS browser, stream keys, phone streaming and Chaturbate apps."
     },
     {
       "id": "encyclopedia",

@@ -1,37 +1,15 @@
 [
-  {
-    "title": "This or that",
-    "summary": "Quick two-choice questions that get the chat typing.",
-    "steps": [
-      "Ask a fun two-choice question (coffee or tea, beach or mountains).",
-      "Read answers out loud and react to names.",
-      "Turn the winning answer into a small goal or a story."
-    ],
-    "prompts": [
-      "+ Quick one: beach night or cosy movie night? 👀",
-      "+ This or that: dancing or storytime next?"
-    ]
-  },
-  {
-    "title": "Tipper's choice song",
-    "summary": "Let tippers pick the next song. Easy, low-pressure engagement.",
-    "steps": [
-      "Announce that a small tip picks the next song.",
-      "Play it, dance or sing along, and thank the tipper by name.",
-      "Use it as a bridge back into the main goal."
-    ],
-    "prompts": [
-      "+ Next song is up to you. Tip to pick it! 🎶"
-    ]
-  },
-  {
-    "title": "Spin the wheel",
-    "summary": "A random wheel of small, fun actions keeps slow rooms moving.",
-    "steps": [
-      "Prepare a wheel with 6–8 light actions (a pose, a dance move, a joke).",
-      "Each spin costs a small tip.",
-      "Build up the suspense before each result."
-    ],
-    "tags": ["slow room"]
-  }
+  { "title": "Banana Tease", "tags": ["food"], "embed": "https://docs.google.com/presentation/d/1FcUS8S6zcrLkXUdBvL0T5DwvOxqcYcaZBWj6qifygEw" },
+  { "title": "Lollipop Tease", "tags": ["food"], "embed": "https://docs.google.com/presentation/d/1PoDVz2w46EXgbS4AFwmu5JxbIbTn0g4ahnccAlcNTOs" },
+  { "title": "Lingerie Try-On", "tags": ["outfit"], "embed": "https://docs.google.com/presentation/d/1FHqEZ1ukQZiaUPWMR2o-aPX54mk7y08FKiRA5o5wHxY" },
+  { "title": "Yoga", "tags": ["movement"], "embed": "https://docs.google.com/presentation/d/1RfzoPu0LWr8H0D-yv7Rtc9HaZ9zLYlzt6_sZ7XHcAPc" },
+  { "title": "Bag Raid", "tags": ["chat"], "embed": "https://docs.google.com/presentation/d/1gCuryAfhG9p_zyT1OgrjV07-spAobPDWq4HCBOZVJ3k" },
+  { "title": "Lotion Bum", "embed": "https://docs.google.com/presentation/d/1khaQClfde7ZAK57jVdIiki2_KrVy4fDiREqUjfw9iMQ" },
+  { "title": "Massage Gun", "tags": ["props"], "embed": "https://docs.google.com/presentation/d/1ogfcFsx59touGf4IYv5TQlVim2Qr97Es3AmVbuRl44A" },
+  { "title": "Bikini Try Ons", "tags": ["outfit"], "embed": "https://docs.google.com/presentation/d/1ophHmmyP9SaSJKgg8a7a0Df5VanaTJpJL0hyo74I_pw" },
+  { "title": "Stunts", "tags": ["movement"], "embed": "https://docs.google.com/presentation/d/1pzXrr5wUak-tLHIeIbdg3Z23bXiLrHvd9YYgbt66gHc" },
+  { "title": "Dance Tease", "tags": ["movement"], "embed": "https://docs.google.com/presentation/d/14dOouP6w688ihe6EO9ghSKcccg3Oz2snNICAU1Q_5fs" },
+  { "title": "Splits", "tags": ["movement"], "embed": "https://docs.google.com/presentation/d/18MD56S4Fl7MQe8fuANg3dWD-TxeJA8dLpg94h1mqBHE" },
+  { "title": "Carrot Tease", "tags": ["food"], "embed": "https://docs.google.com/presentation/d/1EyYLJieH8G5qxT_JdTIrACs0v4M3qLdVS3j2q4Ob1ok" },
+  { "title": "Wine Sip", "tags": ["chat"], "embed": "https://docs.google.com/presentation/d/1NAodQ8hn45qCgg5DsjpBARdgeTylzrHziQ1HnCuTx1s" }
 ]

@@ -1,0 +1,176 @@
+[
+  {
+    "title": "Install the MTS Browser on the model's laptop",
+    "summary": "Download, install and log in to the MTS Browser on the model's Mac.",
+    "tags": ["MTS browser", "setup"],
+    "steps": [
+      { "step": "Open the MTS workspace in Chrome on the model's laptop", "sub": ["Ask your TL for the workspace link."] },
+      { "step": "Log in to the model's account", "sub": ["Use the model's login details provided by your TL."] },
+      { "step": "Download the MTS Browser", "sub": ["Select Download for macOS (middle of the screen).", "Choose Apple 64-bit."] },
+      { "step": "Check the download progress", "sub": ["Go to the top-right corner of Chrome.", "Open the Downloads tab and wait until the file finishes."] },
+      { "step": "Open the installer", "sub": ["Double-click the downloaded .pkg file.", "An error saying “Not Opened” will appear.", "Click the question mark (?) at the top right of the popup. The Mac user guide shows up next to the error.", "Select Done."] },
+      { "step": "Allow the installation in Privacy & Security", "sub": ["Click the blue text “Open Privacy & Security settings for me”.", "If the “Not Opened” popup appears again, select Done again.", "In Privacy & Security, scroll down to the Security section. You will see that the .pkg file was blocked to protect your Mac.", "Click Open Anyway. Privacy & Security opens again.", "Enter the model's Mac password when prompted."] },
+      { "step": "Install the browser", "sub": ["The installer window appears. Click Continue, then Install.", "Enter the model's Mac password and select Install Software.", "When installation is complete, click Close.", "When asked to Move to Trash or Keep, select Move to Trash."] },
+      { "step": "Open the MTS Browser", "sub": ["Open Spotlight Search (magnifying glass, top right).", "Search for the MTS Browser and open the app."] },
+      { "step": "Log in to the MTS workspace", "sub": ["When the browser opens you will see the available cam sites.", "On the top bar, click the workspace button. You will be redirected to the workspace.", "Log in with the same model account details from your TL."] },
+      "You're now on the MTS Browser broadcast dashboard."
+    ],
+    "screenshots": ["1rxUPdUZ9xMko5__wQDQ83JlgrZ1GwHNX"]
+  },
+  {
+    "title": "Initial setup and permissions in the MTS Browser",
+    "summary": "Camera access, camera source, proxy and connection settings for the first stream.",
+    "tags": ["MTS browser", "setup"],
+    "steps": [
+      { "step": "Open the MTS Browser", "sub": ["Open it on the model's Mac.", "Click the logo in the middle of the browser window."] },
+      { "step": "Log in", "sub": ["Enter the login details provided by your Team Lead and submit."] },
+      { "step": "Go to Broadcasting", "sub": ["On the main screen, click “Go to Broadcasting” (centre of the page)."] },
+      { "step": "Allow camera access", "sub": ["First prompt: the browser would like to access the camera. Click Allow.", "Second prompt has three options: Allow while visiting the site / Allow this time / Never allow.", "Select “Allow while visiting the site”."] },
+      { "step": "Select the camera source", "sub": ["On the broadcasting page, click the camera dropdown at the top left.", "Select FaceTime HD Camera.", "Camera still unavailable? Click the red video icon near the reload button (top left). The Site Information panel opens.", "If the camera toggle is visible, enable it. If not, click the blue “System Settings” link."] },
+      { "step": "Enable the camera in Privacy & Security", "sub": ["macOS System Settings opens at Privacy & Security > Camera.", "Find the MTS Browser in the list and switch camera access ON.", "You'll see a message that the browser won't have camera access until it is quit. Click Quit & Reopen.", "Reopen the MTS Browser manually (see step 1 if needed), then continue to step 7."] },
+      { "step": "Confirm camera access", "sub": ["The camera preview should now appear at the top left.", "Double-check the camera is FaceTime HD Camera.", "Optional: turn on horizontal flip if the model prefers a mirrored view."] },
+      { "step": "Turn off Proxy", "sub": ["Find the Proxy toggle at the top right and make sure it is OFF."] },
+      { "step": "Turn off Open New PM", "sub": ["Find the Open New PM toggle at the top right and make sure it is OFF."] },
+      { "step": "Check settings and connection (bottom right)", "sub": ["Connection is ON.", "View Stream is ON.", "Use the Connection Chat if you need to message the model."] },
+      { "step": "Stream info", "sub": ["Below the camera preview, find the Server and the Stream Key. You'll use these for the OBS setup."] },
+      { "step": "Restream to other cam sites", "sub": ["At the bottom left you'll see the supported cam sites.", "Paste the stream key for each platform as needed (see the stream key guides)."] }
+    ]
+  },
+  {
+    "title": "Stream key: BongaCams / BongaModels",
+    "summary": "Find the BongaCams stream key and paste it into the MTS workspace.",
+    "tags": ["stream key"],
+    "steps": [
+      { "step": "Open BongaModels in the MTS Browser", "sub": ["Launch the MTS Browser and go to BongaModels.", "Click Log In (top right)."] },
+      { "step": "Log in to the model account", "sub": ["Enter the model's login details. Credentials come from the Team Lead or Core Support Team."] },
+      { "step": "Go to the broadcasting page", "sub": ["Click the green “Broadcast Yourself” button (top left, below the logo).", "You'll be redirected to the broadcasting page. Close the dashboard."] },
+      { "step": "Copy the stream key", "sub": ["Scroll to the bottom of the broadcast page.", "Find Stream Information and copy the Stream Key."] },
+      { "step": "Paste it into the MTS workspace", "sub": ["Go back to the workspace, find the BongaCams Stream Key field and paste the key."] }
+    ],
+    "screenshots": "https://drive.google.com/drive/folders/1WXUiBDdXqRb4Jic-zVGyIHcI57feunkt"
+  },
+  {
+    "title": "Stream key: Chaturbate",
+    "summary": "Find the Chaturbate stream key and paste it into the MTS workspace.",
+    "tags": ["stream key"],
+    "steps": [
+      { "step": "Open Chaturbate in the MTS Browser", "sub": ["Launch the MTS Browser, go to Chaturbate and select “I Agree”."] },
+      { "step": "Log in to the model account", "sub": ["Top right, above the Sign Up button, press “Log in”.", "Enter the model's login details. Credentials come from the Team Lead or Core Support Team."] },
+      { "step": "Go to the broadcasting page", "sub": ["Top right, press “Broadcast Yourself”, then select “I agree”."] },
+      { "step": "Find the stream key", "sub": ["The Age Verified Broadcaster tab pops up. Press “Next”.", "On the left, below the Start Broadcasting button, press the blue text “Use external software (OBS)”."] },
+      { "step": "Copy the stream key", "sub": ["Press “View RTMP/OBS broadcast information and stream key”.", "Below “Your broadcast token” you'll see the stream key. Copy it, then press “Close”."] },
+      { "step": "Paste it into the MTS workspace", "sub": ["Go back to the workspace, find the Chaturbate Key field and paste the key."] }
+    ],
+    "screenshots": "https://drive.google.com/drive/folders/1qxpZzlgphniL2ojcjdw0fEb2EMdZ5DZu"
+  },
+  {
+    "title": "Stream key: Cam4",
+    "summary": "Find the Cam4 stream key and paste it into the MTS workspace.",
+    "tags": ["stream key"],
+    "steps": [
+      { "step": "Open Cam4 in the MTS Browser", "sub": ["Launch the MTS Browser and click Cam4.", "A warning pops up. Select “I Agree”."] },
+      { "step": "Log in to Cam4", "sub": ["Top right, click Login.", "Enter the model's login details. Credentials come from the Team Lead or Core Support Team."] },
+      { "step": "Broadcast settings", "sub": ["After logging in you'll be redirected to the broadcasting page. If not, open cam4.com/broadcast.", "Press “Get the Stream Key” to show the stream key."] },
+      { "step": "Copy the stream key", "sub": ["In the pop-up, click the copy icon next to the stream key.", "A green notification “Stream Key Copied to clipboard” confirms it."] },
+      { "step": "Paste it into the MTS workspace", "sub": ["Go back to the workspace, find the Cam4 Stream Key field and paste the key."] }
+    ],
+    "screenshots": "https://drive.google.com/drive/folders/1e5je6Or5MZHRK7l9AuIXeKh2toqtMrHe"
+  },
+  {
+    "title": "Stream key: CamSoda",
+    "summary": "Find the CamSoda stream key and paste it into the MTS workspace.",
+    "tags": ["stream key"],
+    "steps": [
+      { "step": "Open CamSoda in the MTS Browser", "sub": ["Launch the MTS Browser and go to CamSoda."] },
+      { "step": "Log in to the model account", "sub": ["Enter the model's login details. Credentials come from the Team Lead or Core Support Team."] },
+      { "step": "Go to the broadcasting page", "sub": ["Click the model's profile (top right). A new tab opens.", "Select “View My Profile”. You'll be redirected to the broadcast page."] },
+      { "step": "Copy the stream key", "sub": ["Find Stream Information. The key is below the OBS Stream Settings info.", "Copy the stream key."] },
+      { "step": "Paste it into the MTS workspace", "sub": ["Go back to the workspace, find the CamSoda Stream Key field and paste the key."] }
+    ],
+    "screenshots": "https://drive.google.com/drive/folders/1VafHFhgfHznSauYhi435OneNpCU61wjJ"
+  },
+  {
+    "title": "Stream key: StripChat",
+    "summary": "Find the StripChat stream key and paste it into the MTS workspace.",
+    "tags": ["stream key"],
+    "steps": [
+      { "step": "Open StripChat in the MTS Browser", "sub": ["Launch the MTS Browser and go to StripChat."] },
+      { "step": "Log in to the model account", "sub": ["Enter the model's login details. Credentials come from the Team Lead or Core Support Team."] },
+      { "step": "Go to the broadcasting page", "sub": ["Check you're on the “Broadcast center” (top right, below the logo).", "Scroll to the bottom and select “Set up Broadcast”. You'll be redirected to the broadcast page."] },
+      { "step": "Allow the microphone", "sub": ["When the browser asks for microphone access, choose Allow, then “Allow while visiting the site”.", "Check the camera is “FaceTime HD Camera” and the mic is the MacBook microphone."] },
+      { "step": "Copy the stream key", "sub": ["Press “Show OBS Broadcasting Specification” and copy the stream key."] },
+      { "step": "Paste it into the MTS workspace", "sub": ["Go back to the workspace, find the StripChat Stream Key field and paste the key."] }
+    ],
+    "screenshots": "https://drive.google.com/drive/folders/1HgErutD3M56F1Hn5MHFjQ0KGSPweRyu4"
+  },
+  {
+    "title": "Phone streaming on Chaturbate",
+    "summary": "Go live from the model's phone using the browser.",
+    "tags": ["phone"],
+    "steps": [
+      { "step": "Open the website", "sub": ["Open Safari on the phone and press “I Agree”."] },
+      { "step": "Log in", "sub": ["Tap the three lines (☰) at the top left, scroll to the bottom and tap Log In.", "Enter the username and password and tap Log In.", "Tick “Keep me logged in”."] },
+      { "step": "Open the broadcast page", "sub": ["Tap ☰ again and select Broadcast."] },
+      { "step": "Allow camera and microphone", "sub": ["Press Request Device Permission and tap Allow when the phone asks.", "Tap Got It if a guide pops up.", "If access isn't allowed, the stream won't start."] },
+      { "step": "Start the camera", "sub": ["Tap the green video icon and select Start Using Camera.", "You should see the camera preview.", "Camera still not working? Make sure no other app (e.g. Zoom) is using the camera."] },
+      { "step": "Go live", "sub": ["Check the camera angle and lighting.", "Tap Start Broadcast."] }
+    ]
+  },
+  {
+    "title": "Chaturbate app: Tip Goals",
+    "summary": "Set up the multi-goal app with 5 goals, colours and goal controls.",
+    "tags": ["chaturbate apps"],
+    "steps": [
+      "Go to the Broadcast page (top right).",
+      { "step": "Find the app", "sub": ["Scroll down to Apps and click it.", "Search for “basket1892 tip goals”."] },
+      "Open the app's Settings.",
+      { "step": "Goals & Amounts", "sub": ["Open the Goals & Amounts drop-down.", "Add the 5 goals and the token amount for each."] },
+      { "step": "Colors & Effects", "sub": ["Open the Colors & Effects drop-down.", "Choose the model's colour theme and the stream theme. Dark mode is available too.", "Give each model a unique colour and look so their setup feels personal (ask your TL for the model's colour)."] },
+      "Choose the panel effect and style that fits the model and stream theme.",
+      { "step": "Room Subjects & Tags", "sub": ["Open the drop-down.", "Remove the default room subject and hashtags, then tick Auto-Update Subject."] },
+      { "step": "Goal Controls & Cycles", "sub": ["Open the drop-down and set the goal controls for the stream."] },
+      "Review the settings, then start the app."
+    ]
+  },
+  {
+    "title": "Chaturbate app: Ace Tip Menu",
+    "summary": "Copy the model's tip menu into the Ace Tip Menu app.",
+    "tags": ["chaturbate apps"],
+    "steps": [
+      { "step": "Find the app", "sub": ["Search “streamsuite”, click “Ace Tip Menu” and open the settings."] },
+      "Copy and paste the model's current menu items into the app.",
+      { "step": "Menu settings", "sub": ["Set the item separator emoji (ask your TL for the model's emoji).", "Set the menu interval to 5–10 minutes."] },
+      "Scroll up and click “Start App”."
+    ]
+  },
+  {
+    "title": "Chaturbate app: Auto Hashtag Changer",
+    "summary": "Keep hashtags on-persona automatically.",
+    "tags": ["chaturbate apps"],
+    "steps": [
+      { "step": "Find the app", "sub": ["Search “streamsuite boost hashtag changer”, click “Auto Hashtag Changer” and open the settings."] },
+      { "step": "Review the hashtags", "sub": ["Remove any hashtags that don't match the model's persona.", "Make sure Append is selected for the last option."] },
+      "Review the settings, then start the app."
+    ]
+  },
+  {
+    "title": "Chaturbate app: Get More Followers",
+    "summary": "Encourage follows without spamming the chat.",
+    "tags": ["chaturbate apps"],
+    "steps": [
+      { "step": "Find the app", "sub": ["Search “streamsuite get more followers”, click “Get More Followers” and open the settings."] },
+      { "step": "Settings", "sub": ["Set “Thank You Message Visibility” to User Only, so it isn't spammy on the model's side.", "Set the time between follow reminders to 300 seconds."] },
+      "Scroll up and click “Start App”."
+    ]
+  },
+  {
+    "title": "Chaturbate app: Boost Fan Club",
+    "summary": "Promote the fan club with a personal message.",
+    "tags": ["chaturbate apps"],
+    "steps": [
+      { "step": "Find the app", "sub": ["Search “streamsuite boost fan club”, click “Boost Fan Club” and open the settings."] },
+      { "step": "Settings", "sub": ["Personalise the fan club promotion message (use the fan club's name if there is one; otherwise invite viewers to join).", "Set the interval to 20–30 minutes.", "Untick “Show Signup Link in Fan Club Ads”."] },
+      "Scroll up and click “Start App”."
+    ]
+  }
+]

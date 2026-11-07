@@ -49,6 +49,23 @@
     ]
   },
   {
+    "title": "Camsite Terms & Conditions",
+    "summary": "Things that are not allowed on stream. Breaking these can get a room banned.",
+    "steps": [
+      "Men on camera for any reason. Men should not be in the same room.",
+      "Advertising competing cam sites or third-party commercial websites (including OF).",
+      "Not showing the face on camera.",
+      "Broadcasting pre-recorded, non-live video.",
+      "Going online with poor camera quality.",
+      "Leaving the camera during a broadcast. Use an AFK scene in OBS and set AFK status on the broadcast page.",
+      "Animals or pets visible in the broadcast area.",
+      "Posting or sharing any external links.",
+      "Hateful or hurtful language, including insults meant to harm another person.",
+      "Exposing anyone's private information: full name, address, contact details or anything that could identify them."
+    ],
+    "stepsTitle": "Not allowed"
+  },
+  {
     "title": "Escalation and Incident Flags",
     "summary": "Report it now, not at post-stream. One thread per stream day.",
     "steps": [

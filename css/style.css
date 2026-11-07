@@ -132,7 +132,7 @@ p { margin: 0 0 0.8em; }
 :root[data-theme="light"] .i-sun { display: none; }
 
 /* Phones and tablets: section links move into a drop-down menu */
-@media (max-width: 1080px) {
+@media (max-width: 1180px) {
   .menu-btn { display: grid; }
   .nav {
     position: absolute; left: 0; right: 0; top: 64px;
@@ -321,9 +321,28 @@ p { margin: 0 0 0.8em; }
   background: var(--bg-2); border: 1px solid var(--line);
 }
 .embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+/* Drive folder grids need more height than a slide deck; white matches Drive's own page */
+.embed-folder { aspect-ratio: auto; height: min(70vh, 560px); background: #fff; }
 .media-note { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 14px; margin-top: 8px; font-size: 0.82rem; color: var(--muted); }
 .figure img { border-radius: 14px; border: 1px solid var(--line); background: var(--bg-2); width: 100%; height: auto; }
 .figure figcaption { font-size: 0.82rem; color: var(--muted); margin-top: 6px; }
+
+/* Photo galleries (Frames) and screenshots (Tools) */
+.gallery { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); max-width: 900px; margin-top: 10px; }
+.g-item {
+  display: grid; place-items: center; aspect-ratio: 3 / 4; overflow: hidden; border-radius: 10px;
+  background: var(--bg-2); border: 1px solid var(--line);
+}
+.g-item:hover { border-color: var(--accent); }
+.g-item img { width: 100%; height: 100%; object-fit: cover; }
+.g-item img:not([src]) { visibility: hidden; }   /* waiting its turn in the photo loader */
+.g-lock { font-size: 1.3rem; opacity: 0.6; }
+.shots { margin-top: 18px; }
+.shots-body { margin-top: 8px; }
+.card-body .steps > li { margin: 8px 0; }
+.card-body .steps ul { margin: 4px 0 0; padding-left: 1.1em; color: var(--muted); }
+.card-body .steps ul li { margin: 2px 0; }
+.card-body .steps ul li::marker { color: var(--muted); }
 
 /* Friendly card shown instead of a missing / locked embed or image */
 .placeholder {
