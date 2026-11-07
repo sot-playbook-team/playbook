@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Pre-stream checklist",
+    "summary": "Everything ready before going live. Never trade readiness for an on-time start.",
+    "steps": [
+      "T-30 to T-15: time tracker on. Review the strategy, stream workbook, last report and last feedback.",
+      "Confirm stream mode, opening push and pull, 3 scenes, 4 main + 2 backup goals, fillers and engagement account.",
+      "T-15: model joins and shares her screen. Run a live speed test on her device and an OBS check (scene, camera, preview, audio).",
+      "Check framing, lighting, background and privacy, and outfit. Give a short briefing.",
+      "T-2: final confirmation and announcement. Zoom cams and mics off, recording stopped for the live part."
+    ],
+    "tips": [
+      "A short delay with a status and reason posted is fine. A silent late start is not."
+    ]
+  },
+  {
+    "title": "Post-stream checklist",
+    "summary": "Confirm offline everywhere, then lead a real recap conversation.",
+    "steps": [
+      "Check the stream is offline on every platform, and OBS is stopped.",
+      "Post the offline update.",
+      "Lead the recap: her feedback first, then key results, 1–2 wins and the most useful improvement.",
+      "Write the report with verified numbers only, never estimates.",
+      "Hand off verified fan context to the chat team and flag blocked or muted users."
+    ]
+  },
+  {
+    "title": "Fathom and Zoom rules",
+    "summary": "Record the prep and the calls. Stop recording while live.",
+    "steps": [
+      "Fathom ON for team prep and the pre-stream and post-stream calls.",
+      "Fathom stopped for the live portion.",
+      "Zoom cameras and mics off before going live.",
+      "Recordings are reviewed, so treat every call as on the record."
+    ]
+  },
+  {
+    "title": "If tech fails",
+    "summary": "Identify, troubleshoot, verify, escalate, document.",
+    "steps": [
+      "Identify the problem (internet, OBS, camera, audio, power).",
+      "Try the quick fix: restart the source, switch to the backup connection or device.",
+      "Verify it works before going back live.",
+      "If it's not fixed in a few minutes, escalate to the tech team and your TL.",
+      "Post a status and reason so everyone knows what's happening, then write it up."
+    ],
+    "tips": [
+      "Run tech checks before the shift. The same issue twice with no fix or backup is not accepted."
+    ]
+  },
+  {
+    "title": "Escalation and Incident Flags",
+    "summary": "Report it now, not at post-stream. One thread per stream day.",
+    "steps": [
+      "Tell your TL right away.",
+      "Post a new 🚩 INCIDENT FLAG in the creator's operator channel: date/time, creator, operator, issue, action taken, status, assigned TL, screenshot.",
+      "Keep every update in that one thread. A separate incident gets a new flag.",
+      "When escalating, give: observation, evidence, impact, recommended action."
+    ]
+  }
+]

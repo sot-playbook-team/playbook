@@ -1,0 +1,37 @@
+[
+  {
+    "title": "This or that",
+    "summary": "Quick two-choice questions that get the chat typing.",
+    "steps": [
+      "Ask a fun two-choice question (coffee or tea, beach or mountains).",
+      "Read answers out loud and react to names.",
+      "Turn the winning answer into a small goal or a story."
+    ],
+    "prompts": [
+      "+ Quick one: beach night or cosy movie night? 👀",
+      "+ This or that: dancing or storytime next?"
+    ]
+  },
+  {
+    "title": "Tipper's choice song",
+    "summary": "Let tippers pick the next song. Easy, low-pressure engagement.",
+    "steps": [
+      "Announce that a small tip picks the next song.",
+      "Play it, dance or sing along, and thank the tipper by name.",
+      "Use it as a bridge back into the main goal."
+    ],
+    "prompts": [
+      "+ Next song is up to you. Tip to pick it! 🎶"
+    ]
+  },
+  {
+    "title": "Spin the wheel",
+    "summary": "A random wheel of small, fun actions keeps slow rooms moving.",
+    "steps": [
+      "Prepare a wheel with 6–8 light actions (a pose, a dance move, a joke).",
+      "Each spin costs a small tip.",
+      "Build up the suspense before each result."
+    ],
+    "tags": ["slow room"]
+  }
+]

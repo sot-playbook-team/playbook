@@ -1,0 +1,79 @@
+{
+  "name": "SOT Playbook",
+  "tagline": "New stream strategies and how to run them, in one place.",
+  "heroEyebrow": "I · Strategy & Training",
+  "newBanner": "📢 New Strategies! 📢",
+  "homeCount": 3,
+  "newDays": 14,
+  "footer": "Strategy & Training | 2026",
+  "credits": "[CREDITS]",
+  "accessNote": "Can't see it? Open it in a new tab and sign in with your work Google account.",
+  "sections": [
+    {
+      "id": "strategies",
+      "file": "strategies.json",
+      "type": "strategies",
+      "label": "New Strategies",
+      "nav": "Strategies",
+      "banner": "Strategies",
+      "intro": "The latest stream strategies: what they are, how to run them and the goal ladder to use."
+    },
+    {
+      "id": "model",
+      "file": "model.json",
+      "label": "Model",
+      "nav": "Model",
+      "banner": "Models",
+      "intro": "Working with models: rapport, check-ins and handling preferences."
+    },
+    {
+      "id": "goals",
+      "file": "goals.json",
+      "label": "Goals",
+      "nav": "Goals",
+      "banner": "Goals",
+      "intro": "Building a goal ladder, main vs backup goals, and when to switch."
+    },
+    {
+      "id": "frames",
+      "file": "frames.json",
+      "label": "Frames & Positions",
+      "nav": "Frames",
+      "banner": "Frames",
+      "intro": "Framing, angles, thumbnail shots and position ideas."
+    },
+    {
+      "id": "fillers",
+      "file": "fillers.json",
+      "label": "Fillers",
+      "nav": "Fillers",
+      "banner": "Fillers",
+      "intro": "Scenes and activities for slow moments."
+    },
+    {
+      "id": "user",
+      "file": "user.json",
+      "label": "User",
+      "nav": "User",
+      "banner": "Users",
+      "intro": "Viewer and tipper engagement: thanking, big tippers, funneling and pushy requests."
+    },
+    {
+      "id": "support",
+      "file": "support.json",
+      "label": "Support",
+      "nav": "Support",
+      "banner": "Support",
+      "intro": "Operator how-tos: checklists, call rules, tech problems and escalation."
+    },
+    {
+      "id": "encyclopedia",
+      "file": "glossary.json",
+      "type": "glossary",
+      "label": "Encyclopedia",
+      "nav": "A–Z",
+      "banner": "Encyclopedia",
+      "intro": "Every SOT term from A to Z. Search or jump to a letter."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Keep this site out of all search engines
+User-agent: *
+Disallow: /

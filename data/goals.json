@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Build a goal ladder (push and pull)",
+    "summary": "Easy goals first to build momentum, then step the amounts down, not up.",
+    "details": [
+      "Raising the ask on every goal tires the room. Start with quick wins, put the big goal early while energy is high, then make each next goal a little easier."
+    ],
+    "steps": [
+      "Open with 1–2 easy warm-up goals the room can hit fast.",
+      "Place the main (biggest) goal next, while momentum is high.",
+      "Step the next goals down in amount.",
+      "Keep 2 backup goals ready for slow moments."
+    ],
+    "goalLadder": [
+      "Warm-up · small and quick",
+      "Warm-up · small and quick",
+      "Main goal · the biggest ask of the night",
+      "Step down · medium",
+      "Step down · smaller"
+    ],
+    "ladderTitle": "Ladder shape"
+  },
+  {
+    "title": "Token ranges",
+    "draft": true,
+    "summary": "Example ranges only. Your TL sets the real numbers for each room.",
+    "goalLadder": [
+      "Warm-up goals · 10–50 tk",
+      "Main goal · 300–800 tk",
+      "Step-down goals · 100–300 tk",
+      "Backup goals · 50–150 tk"
+    ],
+    "ladderTitle": "Example ranges",
+    "tips": [
+      "Bigger rooms can carry bigger goals. Match the ask to traffic and pace.",
+      "Replace these ranges with the team's agreed numbers."
+    ]
+  },
+  {
+    "title": "Main vs backup goals, and when to switch",
+    "summary": "Plan 4 main goals and 2 backups. Check the room before lowering a stalled goal.",
+    "steps": [
+      "Main goals: the planned path for the stream, in push-and-pull order.",
+      "Backup goals: no fixed order. Pick the one that fits the moment.",
+      "If a goal stalls, check traffic, engagement and pace first.",
+      "Traffic strong but tips weak? Shift to conversion. Don't beg for the goal.",
+      "Still stuck? Switch to a backup or a filler, and tell your TL why."
+    ],
+    "tips": [
+      "A goal that stalls far from target usually means viewers don't believe it can be hit. Show progress or make it smaller."
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Thumbnail shot",
+    "summary": "The thumbnail decides whether people click. Make it bright, close and clear.",
+    "steps": [
+      "Face and upper body in frame, eyes about one third from the top.",
+      "Bright, even light on the face. No strong shadows.",
+      "Clean background with nothing personal or identifying in view.",
+      "Check the preview on a phone. It's what most viewers see."
+    ],
+    "image": "https://drive.google.com/file/d/REPLACE_WITH_IMAGE_ID/view"
+  },
+  {
+    "title": "Framing and angles",
+    "summary": "Camera at eye level or slightly above, steady, with room to move.",
+    "steps": [
+      "Set the camera at eye level or a little above.",
+      "Leave some space above the head and at the sides for movement.",
+      "Use a second angle (side or wide) for goal moments, if the setup allows.",
+      "Ask: is this the best frame and lighting we could have tonight?"
+    ]
+  },
+  {
+    "title": "Position ideas",
+    "summary": "Change the position between goals so the room never feels static.",
+    "steps": [
+      "Seated close-up: best for chatting and reading the room.",
+      "Standing wide: for dances, outfit shows and goal moments.",
+      "Side profile: a simple change that refreshes the frame.",
+      "Over-the-shoulder look: works well as a small goal reward."
+    ],
+    "tags": ["slow room", "variety"]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Vampire Costume",
+    "date": "2026-11-05",
+    "tags": ["costume", "tease", "high energy"],
+    "summary": "A themed costume night built around a slow, staged reveal.",
+    "details": [
+      "The theme gives the room a story to follow. Each costume piece is tied to a goal, so viewers feel they are moving the night forward together."
+    ],
+    "howTo": [
+      "Put the theme in the room topic and tags before going live.",
+      "Open in the full costume, cape on, and set the scene in the first few minutes.",
+      "Tie each costume change to a goal. Show progress often so the room believes it can hit it.",
+      "Save the best moment for the main goal and hold something back. The room should stay curious."
+    ],
+    "goalLadder": [
+      "25 tk · Fangs on and a hello wave (warm-up)",
+      "50 tk · Cape twirl (warm-up)",
+      "500 tk · Main goal: full costume reveal",
+      "300 tk · Pose chosen by tippers' vote",
+      "150 tk · Spooky story in character"
+    ],
+    "prompts": [
+      "+ Who's brave enough to wake the vampire? 🦇",
+      "+ Halfway to the reveal! Who's helping us get there?"
+    ],
+    "tips": [
+      "Amounts are examples. Adjust them to the room's traffic and pace.",
+      "Easy goals first, then step the amounts down (push and pull)."
+    ],
+    "embed": "https://docs.google.com/presentation/d/REPLACE_WITH_DECK_ID/edit"
+  },
+  {
+    "title": "Backless Dress",
+    "date": "2026-10-30",
+    "tags": ["tease", "slow room"],
+    "summary": "A low-key, elegant look for quieter rooms, using angles and slow turns.",
+    "howTo": [
+      "Start front-facing and chatty. Build rapport before any turns.",
+      "Use slow turns and side angles as goal rewards, not as the opener.",
+      "Keep the camera steady and the lighting soft. The look does the work.",
+      "If the room is quiet, switch to a filler and come back to the turn goal later."
+    ],
+    "goalLadder": [
+      "20 tk · Twirl to show the dress (warm-up)",
+      "300 tk · Main goal: slow turn and pose",
+      "200 tk · Over-the-shoulder look",
+      "100 tk · Tippers pick the next song"
+    ],
+    "prompts": [
+      "+ Should the next pose be over the shoulder or a side profile? Vote with a tip!"
+    ]
+  },
+  {
+    "title": "Belt Bra",
+    "date": "2026-10-01",
+    "tags": ["costume", "high energy"],
+    "summary": "A bold outfit night with fast, upbeat goals and music.",
+    "howTo": [
+      "Pick an upbeat playlist and keep the energy high from the start.",
+      "Use short, quick goals early to build momentum.",
+      "Change the frame between goals so the room never feels static."
+    ],
+    "goalLadder": [
+      "30 tk · Dance break (warm-up)",
+      "400 tk · Main goal: outfit reveal",
+      "250 tk · Tipper picks the pose",
+      "120 tk · Shout-out round"
+    ],
+    "embed": ""
+  }
+]

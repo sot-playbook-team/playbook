@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Thank every tipper",
+    "summary": "Fast, personal thanks makes people tip again.",
+    "steps": [
+      "Thank tippers by name within a few seconds.",
+      "Match the thanks to the tip: a quick line for small tips, a bigger moment for big ones.",
+      "Mention the goal progress so others want to join in."
+    ],
+    "prompts": [
+      "+ Thank you so much! That got us halfway there 💕",
+      "+ You're a star, thank you! Who's next to help?"
+    ]
+  },
+  {
+    "title": "Big tippers (whales)",
+    "summary": "Make big tippers feel seen without ignoring the rest of the room.",
+    "steps": [
+      "Give a bigger, personal thank-you and remember their name next stream.",
+      "Offer a small choice (next pose, next song) as a thank-you.",
+      "Keep the rest of the room involved so it doesn't feel like a private show."
+    ],
+    "tips": [
+      "We chase spenders, not headcount. A smaller room of real tippers beats a big room of lurkers."
+    ]
+  },
+  {
+    "title": "Moving fans to OF after rapport",
+    "summary": "Funnel only when a viewer shows interest, using approved, platform-safe wording.",
+    "steps": [
+      "Build rapport first. Never open with a link or a hard sell.",
+      "Wait for a sign of interest (asking for more, private questions).",
+      "Use approved, platform-safe wording only.",
+      "Let curiosity do the work. Hold back on cam so OF is the place to see more."
+    ]
+  },
+  {
+    "title": "Pushy requests",
+    "summary": "Stay friendly, stay in persona, and redirect. Use mute or ban when needed.",
+    "steps": [
+      "Redirect politely to the goal or the menu.",
+      "If they keep pushing, ignore and keep the stream moving.",
+      "Mute or ban anything on the banned-terms list straight away.",
+      "Safety or privacy concern? Screenshot it and raise an Incident Flag right away."
+    ]
+  }
+]
